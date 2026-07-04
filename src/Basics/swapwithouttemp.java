@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.*;
 public class swapwithouttemp {
     public static void main(String[] args) {

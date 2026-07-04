@@ -1,17 +1,17 @@
+package Basics;
+
 import java.util.Scanner;
 
-public class FactorailNumber {
+public class SquareNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         while (t-- > 0) {
-            int n = sc.nextInt();
-            int fact=1;
-            for(int i=1;i<=n;i++){
-                fact=fact*i;
-            }
-            System.out.println(fact);
 
+            int n = sc.nextInt();
+            int res=(int) Math.pow(n, 2);
+            System.out.println(res);
+            }
         }
     }
-}
+

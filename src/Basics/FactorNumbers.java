@@ -1,18 +1,20 @@
+package Basics;
+
 import java.util.Scanner;
-public class ReverseOfaNumber {
+
+public class FactorNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         while (t-- > 0) {
             int n = sc.nextInt();
-            int rev = 0;
-            while (n != 0) {
-                int rem = n % 10;
-                rev = rev * 10 + rem;
-                n = n / 10;
+
+            for(int i=n;i<n;i++){
+                if(i==0) continue;
+                if(n%i==0){
+                    System.out.print(i+" ");
+                }
             }
-            System.out.println(rev);
         }
     }
-
 }

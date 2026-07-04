@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.*;
 public class largestof3 {
     public static void main(String[] args) {

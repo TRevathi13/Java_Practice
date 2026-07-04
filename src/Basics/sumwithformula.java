@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.*;
 public class sumwithformula {
     public static void main(String[] args) {
